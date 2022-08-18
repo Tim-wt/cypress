@@ -21,7 +21,7 @@ class Echart extends Component {
             },
             yAxis: {},
             series: [{
-                name: '销量',
+                name: '销量1',
                 type: 'bar',
                 data: [5, 20, 36, 10, 10, 20]
             }]
