@@ -1,20 +1,27 @@
-# react-nextjs-demo 开发模板
-##### 使用Next.js构建React服务端渲染应用
-##### 参考博客：https://blog.csdn.net/mudontire/article/details/80980910
-##### next.js官网：https://nextjs.org/
-##### next.js官方教程：https://nextjs.org/learn
-##### 整合了mockjs
-##### 引入了antd并设置按需加载
-##### 引入了ECharts
-	
-## 安装
-1. git clone 代码到本地
-2. npm i 安装
-3. npm run devt 运行
-4. npm run mock 运行服务
+# Next.js + Cypress
 
-分别执行以下命令
-1. `git clone https://github.com/Jamin-Deng/react-nextjs-demo.git`
-1. `$ cd  react-nextjs-demo`
-1. `$ npm i 安装必须有nodejs环境`
-1. `$ npm run dev`
+This example shows how to configure Cypress to work with Next.js.
+
+## Deploy your own
+
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-cypress)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-cypress&project-name=with-cypress&repository-name=with-cypress)
+
+## How to use
+
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+
+```bash
+npx create-next-app --example with-cypress with-cypress-app
+```
+
+```bash
+yarn create next-app --example with-cypress with-cypress-app
+```
+
+```bash
+pnpm create next-app --example with-cypress with-cypress-app
+```
+
+Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
